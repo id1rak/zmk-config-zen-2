@@ -1,0 +1,6 @@
+keyboard: zen-2-idirak
+shields:
+  - zen_left
+  - zen_right
+maintainer: id1rak
+url: https://github.com/id1rak/zmk-config-zen-2
