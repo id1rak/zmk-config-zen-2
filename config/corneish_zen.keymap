@@ -27,6 +27,25 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        CAPA_NUM {
+            bindings = <&mo 2>;
+            key-positions = <12 24>;
+        };
+
+        CMB_ESC {
+            bindings = <&kp ESC>;
+            key-positions = <24 35>;
+        };
+
+        CMB_GUI {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <36 41>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
